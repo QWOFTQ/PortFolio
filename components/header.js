@@ -19,7 +19,9 @@ export default function Header() {
               >
                 <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
               </svg>
-              <span className="ml-3 text-xl text-white">PortFolio</span>{' '}
+              <span className="ml-3 text-2xl text-white font-bold">
+                PortFolio
+              </span>{' '}
             </p>
           </Link>
 
@@ -36,8 +38,10 @@ export default function Header() {
               <p className="mr-5 text-white hover:text-yellow-400">Login</p>
             </Link>
 
-            <a href="https://github.com" 
-            className="mr-5 text-white hover:text-yellow-400">
+            <a
+              href="https://github.com"
+              className="mr-5 text-white hover:text-yellow-400"
+            >
               GitHub
             </a>
             <a
