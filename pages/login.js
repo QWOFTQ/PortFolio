@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Layout from '../components/Layout'
+import Layout from '../components/layout'
 import { signIn, useSession } from 'next-auth/react'
 import { toast } from 'react-toastify'
 import { getError } from '../utils/error'
