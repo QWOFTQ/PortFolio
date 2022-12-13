@@ -74,11 +74,10 @@ export default function LoginScreen() {
   return (
     <Layout title="Login">
       <form
-        className="mx-auto max-w-screen-md"
+        className="mx-auto max-w-screen-md "
         onSubmit={handleSubmit(submitHandler)}
-      >
-
-        <div className="mb-4 p-4 m-2">
+      > 
+        <div className="mb-4 p-4 m-2 bg-gray-200">
           <label htmlFor="email" className="mt-2">
             Email
           </label>
@@ -100,8 +99,8 @@ export default function LoginScreen() {
           )}
         </div>
 
-        <div className="mb-4 p-4 m-2">
-          <label htmlFor="password" className="mt-2">
+        <div className="mb-4 p-4 m-2 bg-gray-200" >
+          <label htmlFor="password" className="mt-2 ">
             Password
           </label>
           <input
