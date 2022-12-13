@@ -40,13 +40,13 @@ export default function Header() {
             </Link>
 
             <a
-              href="https://github.com"
+              href="https://github.com/QWOFTQ"
               className="mr-5 text-white hover:text-yellow-400"
             >
               GitHub
             </a>
             <a
-              href="https://vercel.com/dashboard"
+              href="https://port-folio-olive.vercel.app/"
               className="mr-5 text-white hover:text-yellow-400"
             >
               Vercel
