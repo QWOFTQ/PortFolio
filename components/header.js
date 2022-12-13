@@ -46,7 +46,7 @@ export default function Header() {
               GitHub
             </a>
             <a
-              href="https://vercel.com/qwoftq/cal-real"
+              href="https://vercel.com/qwoftq"
               className="mr-5 text-white hover:text-yellow-400"
             >
               Vercel
